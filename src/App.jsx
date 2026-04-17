@@ -79,7 +79,7 @@ function App() {
       general: { embedded: true },
       header: { 
         title: isOpen ? "💬 Lulu Responde" : "💬 Clique para abrir", 
-        avatar: "https://ibb.co/4nW2tnxz",
+        avatar: "https://res.cloudinary.com/dm3ah1fbl/image/upload/v1776433719/avatar_ghhe1w.jpg",
         height: 60
       },
       chatHistory: { storageKey: "lulu_toggle" },
@@ -135,7 +135,7 @@ function App() {
           onClick={toggleChat}
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <img src="https://ibb.co/4nW2tnxz" alt="Lulu" style={{ width: 40, height: 40, borderRadius: '50%' }} />
+            <img src="https://res.cloudinary.com/dm3ah1fbl/image/upload/v1776433719/avatar_ghhe1w.jpg" alt="Lulu" style={{ width: 40, height: 40, borderRadius: '50%' }} />
             <span>{isOpen ? "💬 Lulu Responde" : "💬 Fale com Lulu"}</span>
           </div>
           <span style={{ fontSize: '20px' }}>
@@ -183,10 +183,10 @@ function App() {
 
       <figure className="diff aspect-16/9 max-w-md mx-auto" tabIndex={0}>
         <div className="diff-item-1" role="img" tabIndex={0}>
-          <img alt="" src="https://ibb.co/MyxJpZzH" />
+          <img alt="" src="https://res.cloudinary.com/dm3ah1fbl/image/upload/v1776433722/eu2_gclsas.png" />
         </div>
         <div className="diff-item-2" role="img">
-          <img alt="" src="https://ibb.co/HTvqc2ML" />
+          <img alt="" src="https://res.cloudinary.com/dm3ah1fbl/image/upload/v1776433723/eu_bwkfqp.png" />
         </div>
         <div className="diff-resizer"></div>
       </figure>
